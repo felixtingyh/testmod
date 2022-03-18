@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:nether_star_block",
+    "testmod:nether_star_bricks"
+  ]
+}

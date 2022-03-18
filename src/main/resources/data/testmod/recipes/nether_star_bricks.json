@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "testmod:nether_star_block"
+      }
+    },
+    "result": {
+      "item": "testmod:nether_star_bricks"
+    }
+  }
