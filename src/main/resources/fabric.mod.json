@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "ferixx.test.mod.TestMod"
+    ],
+    "client": [
+      "ferixx.test.mod.TestClientMod"
     ]
   },
   "mixins": [
