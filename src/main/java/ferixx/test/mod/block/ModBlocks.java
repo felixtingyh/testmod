@@ -31,6 +31,7 @@ public class ModBlocks {
 
 
 
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(TestMod.MOD_ID, name), block);
