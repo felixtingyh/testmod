@@ -40,4 +40,4 @@ public class TestMod implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("testmod", "the_black_brick"), THE_BLACK_BRICK);
 	
 	}
-}
+}// pp
