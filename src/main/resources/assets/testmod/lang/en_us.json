@@ -1,5 +1,8 @@
 {
     "block.testmod.nether_star_block": "Nether Star Block",
     "block.testmod.nether_star_bricks": "Nether Star Bricks",
-    "item.testmod.the_black_brick": "The Black Brick"
+
+    "item.testmod.the_black_brick": "The Black Brick",
+
+    "itemGroup.testmod.nether_star": "Nether Stars"
 }
