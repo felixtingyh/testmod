@@ -9,7 +9,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
 
 public enum ModToolMaterials implements ToolMaterial {
-    NETHER_STAR(MiningLevels.DIAMOND, 560, 10.0f, 2.5f, 24, () -> Ingredient.ofItems(Items.NETHER_STAR));
+    NETHER_STAR(MiningLevels.NETHERITE, 2031, 10.0f, 4.0f, 24, () -> Ingredient.ofItems(Items.NETHER_STAR));
 
     private final int miningLevel;
     private final int itemDurability;
