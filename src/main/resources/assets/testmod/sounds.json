@@ -1,0 +1,10 @@
+{
+    "test_music": {
+        "sounds": [
+          {
+            "name": "testmod:test_music",
+            "stream": true
+          }
+        ]
+      }
+}

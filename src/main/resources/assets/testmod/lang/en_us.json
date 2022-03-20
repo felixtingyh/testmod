@@ -5,5 +5,8 @@
 
     "item.testmod.the_black_brick": "The Black Brick",
 
-    "itemGroup.testmod.nether_star": "Nether Stars"
+    "itemGroup.testmod.nether_star": "Nether Stars",
+
+    "item.testmod.test_music_disc": "Tomboy Music Disc",
+    "item.testmod.test_music_disc.desc": "(G)IDLE - TOMBOY"
 }
