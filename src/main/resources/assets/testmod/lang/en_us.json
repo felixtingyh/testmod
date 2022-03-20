@@ -8,7 +8,7 @@
     "itemGroup.testmod.nether_star": "Nether Stars",
 
     "item.testmod.test_music_disc": "Music Disc",
-    "item.testmod.test_music_disc.desc": "(You got Rick Rolled) Rick Astley - Never Gonna Give You Up",
+    "item.testmod.test_music_disc.desc": "(You got Rick Rolled!) Rick Astley - Never Gonna Give You Up",
 
-    "item.testmod.test_music_disc.tooltip": "C148 - Chirp"
+    "item.testmod.test_music_disc.tooltip": "C418 - chirp"
 }
