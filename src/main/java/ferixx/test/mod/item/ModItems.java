@@ -1,5 +1,15 @@
 package ferixx.test.mod.item;
 
+import java.util.List;
+
+import org.jetbrains.annotations.Nullable;
+
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
+import net.minecraft.world.World;
+
 import ferixx.test.mod.TestMod;
 import ferixx.test.mod.item.custom.ModMusicDiscItem;
 import ferixx.test.mod.sound.ModSounds;
@@ -16,7 +26,13 @@ public class ModItems {
 
     public static final Item TEST_MUSIC_DISC = registerItem("test_music_disc",
             new ModMusicDiscItem(7, ModSounds.TEST_MUSIC,
-                    new FabricItemSettings().group(ModItemGroup.NETHER_STAR).maxCount(1)));
+                    new FabricItemSettings().group(ModItemGroup.NETHER_STAR).maxCount(1)) {
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip,
+                        TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.testmod.test_music_disc.tooltip"));
+                }
+            });
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);
