@@ -16,6 +16,6 @@ public class TestMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModLootTableModifiers.modifyLootTables();
+		// ModLootTableModifiers.modifyLootTables();
 	}
 }// pp

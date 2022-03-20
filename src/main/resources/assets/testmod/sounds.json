@@ -1,10 +1,26 @@
 {
-    "test_music": {
-        "sounds": [
-          {
-            "name": "testmod:test_music_1",
-            "stream": true
-          }
-        ]
+  "never_gonna_give_you_up": {
+    "sounds": [
+      {
+        "name": "testmod:never_gonna_give_you_up",
+        "stream": true
       }
+    ]
+  },
+  "megalovania": {
+    "sounds": [
+      {
+        "name": "testmod:megalovania",
+        "stream": true
+      }
+    ]
+  },
+  "crabulons_theme": {
+    "sounds": [
+      {
+        "name": "testmod:crabulons_theme",
+        "stream": true
+      }
+    ]
+  }
 }

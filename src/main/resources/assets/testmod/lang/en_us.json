@@ -1,14 +1,21 @@
 {
     "block.testmod.nether_star_block": "Nether Star Block",
     "block.testmod.nether_star_bricks": "Nether Star Bricks",
-    "block.testmod.glass_slab": "Glass Slab",
-
     "item.testmod.the_black_brick": "The Black Brick",
+    "block.testmod.glass_slab": "Glass Slab",
+    "item.testmod.plastic": "Plastic",
+    "item.testmod.coal_dust": "Coal Dust",
+    "item.testmod.empty_disc": "Empty Disc",
 
     "itemGroup.testmod.nether_star": "Nether Stars",
 
-    "item.testmod.test_music_disc": "Music Disc",
-    "item.testmod.test_music_disc.desc": "(You got Rick Rolled!) Rick Astley - Never Gonna Give You Up",
+    "item.testmod.music_disc_chirp": "Music Disc",
+    "item.testmod.music_disc_chirp.desc": "(You got Rick Rolled!) Rick Astley - Never Gonna Give You Up",
+    "item.testmod.music_disc_chirp.tooltip": "C418 - chirp",
 
-    "item.testmod.test_music_disc.tooltip": "C418 - chirp"
+    "item.testmod.crabulons_theme_disc": "Music Disc",
+    "item.testmod.crabulons_theme_disc.desc": "DM DOKURO - Theme of Crabulon",
+
+    "item.testmod.megalovania_disc": "Music Disc",
+    "item.testmod.megalovania_disc.desc": "Undertale - Megalovania"
 }

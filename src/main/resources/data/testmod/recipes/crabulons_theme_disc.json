@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#W"
+    ],
+    "key": {
+      "#": {
+        "item": "testmod:empty_disc"
+      },
+      "W": {
+        "item": "minecraft:cyan_dye"
+      }
+    },
+    "result": {
+      "item": "testmod:crabulons_theme_disc"
+    }
+  }

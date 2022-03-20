@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "#W#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "testmod:plastic"
+      },
+      "W": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "testmod:empty_disc"
+    }
+  }

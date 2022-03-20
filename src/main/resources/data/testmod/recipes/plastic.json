@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testmod:coal_dust"
+  },
+  "result": "testmod:plastic",
+  "experience": 0.7,
+  "cookingtime": 200
+}
