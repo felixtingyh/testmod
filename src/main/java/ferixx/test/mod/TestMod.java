@@ -1,6 +1,7 @@
 package ferixx.test.mod;
 import ferixx.test.mod.block.ModBlocks;
 import ferixx.test.mod.item.ModItems;
+import ferixx.test.mod.util.ModLootTableModifiers;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,5 +16,6 @@ public class TestMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }// pp

@@ -2,7 +2,7 @@
     "test_music": {
         "sounds": [
           {
-            "name": "testmod:test_music",
+            "name": "testmod:test_music_1",
             "stream": true
           }
         ]
